@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextTextMultiLine"
+            android:id="@+id/editTextTextMultiLineUpdate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edittext_border_color"
@@ -37,7 +37,8 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:text="Update"
-                app:backgroundTint="@color/purple_200" />
+                app:backgroundTint="@color/purple_200"
+                android:onClick="updateNote"/>
 
             <Button
                 android:id="@+id/button3"
@@ -46,7 +47,8 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:text="Delete"
-                app:backgroundTint="@color/purple_200" />
+                app:backgroundTint="@color/purple_200"
+                android:onClick="delateNote"/>
         </LinearLayout>
 
     </LinearLayout>

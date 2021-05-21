@@ -31,7 +31,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Create a New Note"
-            app:backgroundTint="@color/purple_200" />
+            app:backgroundTint="@color/purple_200"
+            android:onClick="newNote"/>
 
         <Space
             android:layout_width="match_parent"
@@ -42,7 +43,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Show All Notes"
-            app:backgroundTint="@color/purple_200" />
+            app:backgroundTint="@color/purple_200"
+            android:onClick="viewNotes"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
